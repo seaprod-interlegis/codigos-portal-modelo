@@ -1,0 +1,100 @@
+/* Define o estilo do botão */
+.button {
+    background-color: #3288F2;
+    /* Cor de fundo */
+    border: none;
+    /* Sem borda */
+    color: white;
+    /* Cor do texto */
+    padding: 5px;
+    /* Espaçamento interno */
+    text-align: center;
+    /* Alinhamento do texto */
+    text-decoration: none;
+    /* Sem decoração de texto */
+    display: inline-block;
+    /* Exibição em bloco */
+    font-size: 16px;
+    /* Tamanho da fonte */
+    margin: 4px 2px;
+    /* Margem */
+    cursor: pointer;
+    /* Cursor */
+    position: fixed;
+    /* Posição fixa */
+    bottom: 20px;
+    /* Distância do fundo */
+    right: 20px;
+    /* Distância da direita */
+    border-radius: 50%;
+    /* Cantos arredondados */
+    width: 60px;
+    /* Largura */
+    height: 60px;
+    /* Altura */
+    z-index: 1000;
+}
+
+/* Define o estilo do ícone */
+.fa {
+    font-size: 30px;
+}
+
+
+.dropdown {
+    display: none;
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+    background-color: #f1f1f1;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    z-index: 1000;
+}
+
+.dropdown a {
+    display: block;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.dropdown a:hover {
+    background-color: #ddd;
+}
+
+#menu-title {
+    background-color: #ddd;
+    padding: 5px 10px;
+    font-weight: bold;
+}
+
+#menu-options {
+    display: none;
+}
+
+.grayscale {
+    filter: grayscale(100%);
+}
+
+.contrast {
+    filter: contrast(200%);
+}
+
+.negative {
+    filter: invert(100%);
+}
+
+.light {
+    background-color: #FFFFFF;
+}
+
+.underline-links a {
+    text-decoration: underline;
+}
+
+.readable-font {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+}
